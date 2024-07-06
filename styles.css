@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #efefef; /* Light grey background */
+    color: #333; /* Dark grey font color */
+    line-height: 1;
+}
+#content {
+    width: 60%; /* Set the width to 60% of the viewport */
+    background-color: #efefef; /* White background for the content */
+    padding: 20px;
+    border-radius: 5px; /* Slightly rounded corners for aesthetics */
+    color: #2a2a2a; /* Dark grey font color */
+}
