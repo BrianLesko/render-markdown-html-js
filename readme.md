@@ -1,7 +1,7 @@
 
 # Render markdown documents as an HTML web page
 
-Use this minimal viable code to render a markdown document as a web page. This is advantageous over using HTML alone becaue of markdown's simplicity, which is much easier to maintain and edit.
+Use this minimal viable code to render a markdown document as a web page. This is advantageous over using HTML alone becaue of markdown's simplicity, which is much easier to maintain and edit. Written in html, css, and minimal javascript.
 
 &nbsp;
 
@@ -20,6 +20,8 @@ a simple file server will work, for example, if your system has python installed
 ```python
 python3 -m http.server
 ```
+
+If you intent to deploy publically and self host, I would reccomend using Caddy Server. Its super easy to get set up compared to Nginx or Apache, and it automatically handles ssl certificates, serving the page over https by default.
 
 &nbsp;
 
